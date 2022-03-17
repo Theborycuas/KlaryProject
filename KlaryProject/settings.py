@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'rest_framework',
     'categories',
     'tags',
+    'provinces',
+    'cities',
 ]
 
 MIDDLEWARE = [
