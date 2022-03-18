@@ -13,8 +13,8 @@ class UserApp(models.Model):
     city_id = models.ForeignKey(City, on_delete = models.CASCADE, null = False, blank = False, verbose_name="Ciudad")
     user_gender = models.CharField("Género", max_length=200, blank = True, null = True)    
     user_state = models.BooleanField(default = True, blank = True, null = True)    
-    created = models.DateTimeField(auto_now_add = True, verbose_name="Fecha de Creación")
-    update = models.DateTimeField(auto_now = True, verbose_name="Fecha de Edición")
+    created_at = models.DateTimeField(auto_now_add = True, verbose_name="Fecha de Creación")
+    update_at = models.DateTimeField(auto_now = True, verbose_name="Fecha de Edición")
 
 
     class Meta:

@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'provinces',
     'cities',
     'users',
+    'places',
 ]
 
 MIDDLEWARE = [

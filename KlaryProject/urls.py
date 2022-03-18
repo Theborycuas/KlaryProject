@@ -24,4 +24,5 @@ urlpatterns = [
     path('v1/apiklary/', include('provinces.urls')),
     path('v1/apiklary/', include('cities.urls')),
     path('v1/apiklary/', include('users.urls')),
+    path('v1/apiklary/', include('places.urls')),
 ]
